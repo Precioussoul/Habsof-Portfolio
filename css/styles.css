@@ -431,10 +431,40 @@ input[type="checkbox"] {
 /*************************/
 /*     Media Queries     */
 /*************************/
+@media (max-width: 370px) {
+  h1,
+  .h1 {
+    font-size: 1.8rem;
+    line-height: 3.75rem;
+  }
+}
 
 @media (max-width: 767px) {
+  h1,
+  .h1 {
+    font-size: 1.8rem;
+    line-height: 3.75rem;
+  }
   .logo-box {
     margin: 2rem 0 !important;
+  }
+  .prtf-text {
+    font-size: 1rem;
+  }
+
+  .header .countdown #clock .counter-number {
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: 0.4rem;
+    padding-top: 0.8rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+
+  .header .countdown #clock .counter-number .timer-text {
+    font-size: 0.875rem;
+    line-height: 4rem;
+    padding-top: 1rem;
   }
 }
 /* Min-width 768px */
